@@ -1,0 +1,35 @@
+nav ul ul{
+    position: absolute;
+    top: 70px;
+    opacity: 0;
+    visibility: hidden;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+        margin: 10px;
+        color: rgb(102, 102, 102);
+}
+nav ul li a:hover{
+   color: white;
+}
+
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+    
+    background-color: rgb(52, 50, 50);
+}
+nav ul li:hover >  ul{
+    opacity: 1;
+    visibility: visible;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -70px;
+
+}
